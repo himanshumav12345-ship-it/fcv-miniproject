@@ -1,0 +1,8 @@
+{
+ "classifier": "svm",
+ "params": {
+  "classify__C": 10,
+  "classify__gamma": "scale",
+  "select__k": 60
+ }
+}

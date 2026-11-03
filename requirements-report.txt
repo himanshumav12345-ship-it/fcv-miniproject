@@ -1,0 +1,2 @@
+# extra packages, only needed to rebuild the Word report (python -m report.build_report)
+python-docx==1.2.0

@@ -1,0 +1,3 @@
+cross-validation,accuracy,macro_f1
+random image-level folds (leaky),0.9267508042563722,0.9267393633109496
+grouped folds (used in this project),0.886661717396684,0.8866235912585951

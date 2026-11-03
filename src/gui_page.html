@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tomato leaf check</title>
+<style>
+  /* Colours: a cool lab-bench grey, white sheets, dark ink, one teal for actions
+     and one rust for "this is diseased". Nothing else carries colour except the photos. */
+  :root {
+    --bench: #e6ecec;
+    --sheet: #ffffff;
+    --ink: #12262b;
+    --ink-soft: #4b6269;
+    --line: #c3d0d1;
+    --teal: #17606a;
+    --teal-dark: #0f4a52;
+    --rust: #b8431f;
+    --rust-wash: #fbece6;
+    --serif: Georgia, "Times New Roman", serif;
+    --sans: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bench); color: var(--ink);
+    font: 16px/1.5 var(--sans);
+  }
+  .page { max-width: 1240px; margin: 0 auto; padding: 24px 16px 40px; }
+
+  header { margin-bottom: 24px; }
+  h1 { font: 600 28px/1.2 var(--serif); margin: 0 0 4px; }
+  header p { margin: 0; color: var(--ink-soft); max-width: 62ch; }
+
+  .layout { display: grid; grid-template-columns: minmax(300px, 380px) 1fr; gap: 32px; align-items: start; }
+  .sheet { background: var(--sheet); border: 1px solid var(--line); border-radius: 6px; padding: 20px; }
+
+  /* ---- upload ---- */
+  .drop {
+    display: block; border: 2px dashed var(--line); border-radius: 6px; padding: 28px 16px;
+    text-align: center; cursor: pointer; background: #f7fafa;
+  }
+  .drop:hover, .drop.over { border-color: var(--teal); background: #eef6f6; }
+  .drop:focus-within { outline: 3px solid var(--teal); outline-offset: 2px; }
+  .drop input { position: absolute; width: 1px; height: 1px; opacity: 0; }
+  .drop strong { display: block; font-size: 17px; }
+  .drop span { color: var(--ink-soft); font-size: 14px; }
+  .busy { margin: 12px 0 0; color: var(--teal-dark); font-weight: 600; }
+
+  .error {
+    margin-top: 16px; padding: 12px 14px; border-left: 4px solid var(--rust);
+    background: var(--rust-wash); border-radius: 0 6px 6px 0;
+  }
+  .error strong { display: block; margin-bottom: 2px; }
+  .error p { margin: 0; }
+
+  /* ---- verdict ---- */
+  .verdict { margin-top: 20px; }
+  .verdict h2 { font: 600 34px/1.1 var(--serif); margin: 0; }
+  .verdict h2.diseased { color: var(--rust); }
+  .verdict h2.healthy { color: var(--teal); }
+  .confidence { margin: 6px 0 16px; color: var(--ink-soft); }
+  .rows { margin: 0 0 20px; padding: 0; list-style: none; }
+  .rows li { display: grid; grid-template-columns: 8.5em 1fr 3em; gap: 8px; align-items: center; font-size: 14px; padding: 2px 0; }
+  .rows .bar { height: 8px; background: #e3eaeb; border-radius: 4px; overflow: hidden; }
+  .rows .bar i { display: block; height: 100%; background: var(--teal); }
+  .rows li:first-child .bar i { background: var(--ink); }
+  .rows .pct { text-align: right; font-variant-numeric: tabular-nums; }
+
+  /* ---- severity ruler: the one distinctive element ---- */
+  .severity h3 { font: 600 16px/1.3 var(--sans); margin: 0 0 2px; }
+  .severity .reading { margin: 0 0 14px; color: var(--ink-soft); font-size: 14px; }
+  .ruler { position: relative; height: 14px; display: flex; gap: 2px; margin-top: 18px; }
+  .ruler .band { flex: 1; background: #d5e2e3; }
+  .ruler .band:nth-child(2) { background: #e9cdbd; }
+  .ruler .band:nth-child(3) { background: #dba58c; }
+  .ruler .band:nth-child(4) { background: #c9704c; }
+  .ruler .marker { position: absolute; top: -6px; width: 3px; height: 24px; margin-left: -1.5px; background: var(--ink); }
+  .ruler .marker::before {
+    content: ""; position: absolute; left: -5px; top: -8px;
+    border-left: 6.5px solid transparent; border-right: 6.5px solid transparent; border-top: 9px solid var(--ink);
+  }
+  .ruler-labels { display: flex; gap: 2px; margin-top: 12px; font-size: 12px; color: var(--ink-soft); }
+  .ruler-labels span { flex: 1; text-align: center; }
+  .ruler-labels span.current { color: var(--ink); font-weight: 700; }
+  .severity .note { margin: 10px 0 0; font-size: 12px; color: var(--ink-soft); }
+
+  .warnings { margin: 20px 0 0; padding: 0; list-style: none; }
+  .warnings li { border-left: 4px solid var(--rust); background: var(--rust-wash); padding: 8px 12px; margin-top: 8px; font-size: 14px; border-radius: 0 6px 6px 0; }
+
+  /* ---- stage pictures ---- */
+  .stages { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+  .stage { margin: 0; background: var(--sheet); border: 1px solid var(--line); border-radius: 6px; padding: 10px 10px 12px; }
+  .stage .frame {
+    aspect-ratio: 1; background: repeating-linear-gradient(45deg, #eef3f3, #eef3f3 8px, #e6ecec 8px, #e6ecec 16px);
+    display: flex; align-items: center; justify-content: center; border-radius: 3px; overflow: hidden;
+  }
+  .stage img { width: 100%; height: 100%; object-fit: contain; display: block; }
+  .stage h3 { font: 600 15px/1.3 var(--sans); margin: 10px 0 2px; }
+  .stage p { margin: 0; font-size: 13px; line-height: 1.45; color: var(--ink-soft); }
+  .stages-title { font: 600 20px/1.2 var(--serif); margin: 0 0 12px; }
+  .hint { color: var(--ink-soft); margin: 0 0 12px; }
+
+  footer { margin-top: 28px; color: var(--ink-soft); font-size: 13px; max-width: 80ch; }
+
+  @media (max-width: 960px) {
+    .layout { grid-template-columns: 1fr; }
+    .stages { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 520px) {
+    .stages { grid-template-columns: 1fr; }
+    .rows li { grid-template-columns: 7em 1fr 3em; }
+  }
+  [hidden] { display: none !important; }
+</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <h1>Tomato leaf check</h1>
+    <p>Upload one tomato leaf photographed on a plain background. The page shows each image-processing step, then the disease, how sure the classifier is, and how much of the leaf is affected.</p>
+  </header>
+
+  <div class="layout">
+    <section class="sheet" aria-label="Upload and result">
+      <label class="drop" id="drop">
+        <input type="file" id="file" accept="image/*">
+        <strong>Choose a leaf photo</strong>
+        <span>or drop a JPG or PNG here</span>
+      </label>
+      <p class="busy" id="busy" role="status" hidden>Analysing the leaf...</p>
+      <div class="error" id="error" role="alert" hidden>
+        <strong id="error-title"></strong>
+        <p id="error-text"></p>
+      </div>
+
+      <div class="verdict" id="verdict" aria-live="polite" hidden>
+        <h2 id="disease"></h2>
+        <p class="confidence" id="confidence"></p>
+        <ul class="rows" id="probabilities"></ul>
+
+        <div class="severity">
+          <h3>Severity</h3>
+          <p class="reading" id="severity-reading"></p>
+          <div class="ruler" id="ruler"></div>
+          <div class="ruler-labels" id="ruler-labels"></div>
+          <p class="note">Share of the leaf area flagged as diseased by colour. The four bands have equal width on the ruler; their limits differ.</p>
+        </div>
+        <ul class="warnings" id="warnings"></ul>
+      </div>
+    </section>
+
+    <section aria-label="Processing stages">
+      <h2 class="stages-title">What the program did to your photo</h2>
+      <p class="hint" id="hint">The six steps appear here once you choose a photo.</p>
+      <div class="stages" id="stages"></div>
+    </section>
+  </div>
+
+  <footer>
+    The classifier was trained on PlantVillage photographs (single leaves, plain backgrounds, six tomato classes). Photos taken in the field, or of other plants, can be classified less reliably. The severity figure measures colour, so shadows, veins and naturally yellow leaves can inflate it.
+  </footer>
+</div>
+
+<script>
+  var STEP_TITLES = ["Your photo", "After blur and contrast", "Leaf found",
+                     "Diseased pixels", "Edges", "Regions measured"];
+
+  var drop = document.getElementById("drop");
+  var fileInput = document.getElementById("file");
+  var busy = document.getElementById("busy");
+  var errorBox = document.getElementById("error");
+  var verdict = document.getElementById("verdict");
+  var stagesBox = document.getElementById("stages");
+  var hint = document.getElementById("hint");
+
+  // What to tell the user for each kind of failure (the server's own message follows).
+  var ADVICE = {
+    invalid_image: ["This file cannot be used", "Choose a JPG or PNG photo that is at least 64 by 64 pixels."],
+    no_leaf: ["No leaf found", "Photograph one leaf on a plain background so it fills a good part of the frame."],
+    too_large: ["The file is too large", "Choose a smaller photo."],
+    model_missing: ["The classifier is not trained yet", "Run  python -m src.train  and restart this page."],
+    no_file: ["No photo received", "Choose a photo and try again."],
+    unexpected: ["The analysis failed", "Try a different photo."]
+  };
+
+  function show(element, visible) { element.hidden = !visible; }
+
+  function prettyName(className) { return className.replace(/_/g, " "); }
+
+  // Empty state: grey hatched boxes with the step names, so the layout is visible before use.
+  function drawEmptyStages() {
+    stagesBox.innerHTML = "";
+    STEP_TITLES.forEach(function (title) {
+      var figure = document.createElement("figure");
+      figure.className = "stage";
+      figure.innerHTML = '<div class="frame"></div><h3></h3>';
+      figure.querySelector("h3").textContent = title;
+      stagesBox.appendChild(figure);
+    });
+  }
+
+  function drawStages(panels) {
+    stagesBox.innerHTML = "";
+    panels.forEach(function (panel) {
+      var figure = document.createElement("figure");
+      figure.className = "stage";
+      var frame = document.createElement("div");
+      frame.className = "frame";
+      var image = document.createElement("img");
+      image.src = panel.image;
+      image.alt = panel.title;
+      frame.appendChild(image);
+      var title = document.createElement("h3");
+      title.textContent = panel.title;
+      var caption = document.createElement("p");
+      caption.textContent = panel.caption;
+      figure.append(frame, title, caption);
+      stagesBox.appendChild(figure);
+    });
+    hint.textContent = "Each picture is the output of one step and the input of the next.";
+  }
+
+  function drawProbabilities(probabilities) {
+    var list = document.getElementById("probabilities");
+    list.innerHTML = "";
+    Object.entries(probabilities)
+      .sort(function (a, b) { return b[1] - a[1]; })
+      .slice(0, 3)
+      .forEach(function (entry) {
+        var item = document.createElement("li");
+        var name = document.createElement("span");
+        name.textContent = prettyName(entry[0]);
+        var bar = document.createElement("span");
+        bar.className = "bar";
+        var fill = document.createElement("i");
+        fill.style.width = (entry[1] * 100).toFixed(1) + "%";
+        bar.appendChild(fill);
+        var percent = document.createElement("span");
+        percent.className = "pct";
+        percent.textContent = Math.round(entry[1] * 100) + "%";
+        item.append(name, bar, percent);
+        list.appendChild(item);
+      });
+  }
+
+  // The ruler has one equal-width segment per severity band. The marker sits inside the
+  // segment of the measured percentage, proportionally between that band's limits.
+  function drawRuler(bands, percent, levelName) {
+    var ruler = document.getElementById("ruler");
+    var labels = document.getElementById("ruler-labels");
+    ruler.innerHTML = "";
+    labels.innerHTML = "";
+    var position = 100;
+    bands.forEach(function (band, index) {
+      var segment = document.createElement("div");
+      segment.className = "band";
+      ruler.appendChild(segment);
+      var label = document.createElement("span");
+      label.textContent = band.name + " (" + band.from + " to " + band.to + "%)";
+      label.className = band.name === levelName ? "current" : "";
+      labels.appendChild(label);
+      if (percent >= band.from && percent <= band.to) {
+        var share = (percent - band.from) / (band.to - band.from);
+        position = (index + share) * 100 / bands.length;
+      }
+    });
+    var marker = document.createElement("div");
+    marker.className = "marker";
+    marker.style.left = Math.min(position, 100) + "%";
+    ruler.appendChild(marker);
+  }
+
+  function showResult(data) {
+    var disease = document.getElementById("disease");
+    disease.textContent = prettyName(data.disease);
+    disease.className = data.disease === "Healthy" ? "healthy" : "diseased";
+    document.getElementById("confidence").textContent =
+      Math.round(data.confidence * 100) + "% confident";
+    drawProbabilities(data.probabilities);
+
+    var regions = data.lesion_count === 1 ? "1 affected region" : data.lesion_count + " affected regions";
+    document.getElementById("severity-reading").textContent =
+      data.severity_percent.toFixed(1) + "% of the leaf, " + data.severity_level + ", " + regions;
+    drawRuler(data.severity_bands, data.severity_percent, data.severity_level);
+
+    var warnings = document.getElementById("warnings");
+    warnings.innerHTML = "";
+    data.warnings.forEach(function (text) {
+      var item = document.createElement("li");
+      item.textContent = text;
+      warnings.appendChild(item);
+    });
+
+    drawStages(data.panels);
+    show(verdict, true);
+  }
+
+  function showError(kind, serverMessage) {
+    var advice = ADVICE[kind] || ADVICE.unexpected;
+    document.getElementById("error-title").textContent = advice[0];
+    document.getElementById("error-text").textContent = serverMessage + " " + advice[1];
+    show(errorBox, true);
+  }
+
+  function analyse(file) {
+    show(errorBox, false);
+    show(verdict, false);
+    show(busy, true);
+    var form = new FormData();
+    form.append("photo", file);
+    fetch("/analyse", { method: "POST", body: form })
+      .then(function (response) { return response.json(); })
+      .then(function (data) {
+        if (data.ok) { showResult(data); } else { drawEmptyStages(); showError(data.kind, data.message); }
+      })
+      .catch(function () {
+        drawEmptyStages();
+        showError("unexpected", "The page could not reach the program.");
+      })
+      .finally(function () { show(busy, false); fileInput.value = ""; });
+  }
+
+  fileInput.addEventListener("change", function () {
+    if (fileInput.files.length) { analyse(fileInput.files[0]); }
+  });
+  ["dragenter", "dragover"].forEach(function (name) {
+    drop.addEventListener(name, function (event) { event.preventDefault(); drop.classList.add("over"); });
+  });
+  ["dragleave", "drop"].forEach(function (name) {
+    drop.addEventListener(name, function (event) { event.preventDefault(); drop.classList.remove("over"); });
+  });
+  drop.addEventListener("drop", function (event) {
+    if (event.dataTransfer.files.length) { analyse(event.dataTransfer.files[0]); }
+  });
+
+  drawEmptyStages();
+</script>
+</body>
+</html>

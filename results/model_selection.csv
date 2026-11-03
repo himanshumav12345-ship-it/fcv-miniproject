@@ -1,0 +1,4 @@
+classifier,cv_macro_f1_train,val_accuracy,val_macro_f1,best_params,seconds
+svm,0.8907140647410754,0.8910761154855643,0.8909470041044326,"{""classify__C"": 10, ""classify__gamma"": ""scale"", ""select__k"": 60}",20
+random_forest,0.8593889391473273,0.8661417322834646,0.8654588061177394,"{""classify__max_depth"": null, ""classify__n_estimators"": 400, ""select__k"": ""all""}",118
+knn,0.8356323937894959,0.8543307086614174,0.8520069950017323,"{""classify__n_neighbors"": 5, ""select__k"": ""all""}",1

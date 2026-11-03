@@ -1,0 +1,373 @@
+{
+ "gallery": [
+  {
+   "true": "Healthy",
+   "predicted": "Healthy",
+   "confidence": 0.93,
+   "severity": 5.9,
+   "level": "Mild",
+   "lesions": 3,
+   "file": "31e077d4-97f5-4e4c-8b76-e2ccbf52ed2d___RS_HL 0460.JPG"
+  },
+  {
+   "true": "Bacterial_spot",
+   "predicted": "Bacterial_spot",
+   "confidence": 0.94,
+   "severity": 1.3,
+   "level": "Trace / healthy",
+   "lesions": 12,
+   "file": "1f6a4e82-1d08-48d0-a488-1a787c854484___GCREC_Bact.Sp 5905.JPG"
+  },
+  {
+   "true": "Early_blight",
+   "predicted": "Early_blight",
+   "confidence": 0.99,
+   "severity": 20.5,
+   "level": "Moderate",
+   "lesions": 62,
+   "file": "c03bec63-8b1d-42ef-90d5-5dff0c2455ea___RS_Erly.B 9555.JPG"
+  },
+  {
+   "true": "Late_blight",
+   "predicted": "Late_blight",
+   "confidence": 0.82,
+   "severity": 19.9,
+   "level": "Moderate",
+   "lesions": 3,
+   "file": "830fab73-df27-4430-ba0a-2b638be3b6b4___GHLB2 Leaf 8946.JPG"
+  },
+  {
+   "true": "Leaf_Mold",
+   "predicted": "Leaf_Mold",
+   "confidence": 0.88,
+   "severity": 4.4,
+   "level": "Trace / healthy",
+   "lesions": 18,
+   "file": "8c12b984-d1be-4c9c-9fd8-cd032434f543___Crnl_L.Mold 8911.JPG"
+  },
+  {
+   "true": "Septoria_leaf_spot",
+   "predicted": "Late_blight",
+   "confidence": 0.87,
+   "severity": 16.1,
+   "level": "Moderate",
+   "lesions": 14,
+   "file": "a0337427-9957-4062-a0e4-e0a3d21e5574___Matt.S_CG 7478.JPG"
+  }
+ ],
+ "healthy_above_5": 0.2204724409448819,
+ "healthy_n": 127,
+ "severity_median": {
+  "Healthy": 1.9279242455208099,
+  "Bacterial_spot": 3.0803080308030797,
+  "Early_blight": 18.028959218079883,
+  "Late_blight": 20.70393349971392,
+  "Leaf_Mold": 4.24441406742313,
+  "Septoria_leaf_spot": 10.72871607168322
+ },
+ "severity_p90": {
+  "Healthy": 8.07477880040322,
+  "Bacterial_spot": 17.65885696922613,
+  "Early_blight": 42.9322117323174,
+  "Late_blight": 45.930468809172304,
+  "Leaf_Mold": 10.74723455248997,
+  "Septoria_leaf_spot": 32.94535913255458
+ },
+ "confidence": {
+  "median_correct": 0.870175850869493,
+  "median_wrong": 0.8238205885381549,
+  "share_correct_above_0.8": 0.9039301310043668,
+  "share_wrong_below_0.6": 0.04285714285714286,
+  "n_wrong": 70,
+  "accuracy_when_conf_above_0.8": 0.9324324324324325,
+  "share_conf_above_0.8": 0.8797886393659181,
+  "accuracy_when_conf_below_0.6": 0.4,
+  "n_conf_below_0.6": 5
+ },
+ "top_features": [
+  {
+   "name": "texture_lbp_4",
+   "F": 506.053169949156
+  },
+  {
+   "name": "texture_lbp_0",
+   "F": 480.87850178916324
+  },
+  {
+   "name": "texture_lbp_9",
+   "F": 476.92698401438105
+  },
+  {
+   "name": "texture_lbp_1",
+   "F": 457.47495184494954
+  },
+  {
+   "name": "colour_hist_sat1",
+   "F": 402.0116397083986
+  },
+  {
+   "name": "texture_glcm_correlation_d1",
+   "F": 391.00242614706985
+  },
+  {
+   "name": "colour_leaf_a_std",
+   "F": 350.20873418479374
+  },
+  {
+   "name": "texture_lbp_7",
+   "F": 317.07315276310476
+  },
+  {
+   "name": "texture_lbp_2",
+   "F": 307.83451574295486
+  },
+  {
+   "name": "texture_lbp_6",
+   "F": 298.4439555597527
+  },
+  {
+   "name": "texture_glcm_correlation_d3",
+   "F": 297.5887063539569
+  },
+  {
+   "name": "texture_glcm_contrast_d1",
+   "F": 256.57691954226004
+  },
+  {
+   "name": "colour_leaf_L_mean",
+   "F": 253.8302650517122
+  },
+  {
+   "name": "colour_leaf_V_mean",
+   "F": 248.4844485333709
+  },
+  {
+   "name": "colour_leaf_S_mean",
+   "F": 233.73695007635067
+  }
+ ],
+ "top15_by_family": {
+  "texture": 10,
+  "colour": 5
+ },
+ "pca_variance": [
+  0.20502431114476527,
+  0.14153930811261414
+ ],
+ "filters": [
+  {
+   "noise": "Gaussian noise (sigma 15)",
+   "filter": "none",
+   "psnr": 24.8,
+   "ms": 0.0
+  },
+  {
+   "noise": "Gaussian noise (sigma 15)",
+   "filter": "box 5x5 (blur)",
+   "psnr": 22.4,
+   "ms": 0.05
+  },
+  {
+   "noise": "Gaussian noise (sigma 15)",
+   "filter": "Gaussian 5x5",
+   "psnr": 23.6,
+   "ms": 0.08
+  },
+  {
+   "noise": "Gaussian noise (sigma 15)",
+   "filter": "median 5",
+   "psnr": 22.7,
+   "ms": 0.51
+  },
+  {
+   "noise": "Gaussian noise (sigma 15)",
+   "filter": "bilateral (9, 50, 50)",
+   "psnr": 29.7,
+   "ms": 6.65
+  },
+  {
+   "noise": "salt-and-pepper noise (4%)",
+   "filter": "none",
+   "psnr": 19.2,
+   "ms": 0.0
+  },
+  {
+   "noise": "salt-and-pepper noise (4%)",
+   "filter": "box 5x5 (blur)",
+   "psnr": 22.1,
+   "ms": 0.05
+  },
+  {
+   "noise": "salt-and-pepper noise (4%)",
+   "filter": "Gaussian 5x5",
+   "psnr": 22.9,
+   "ms": 0.07
+  },
+  {
+   "noise": "salt-and-pepper noise (4%)",
+   "filter": "median 5",
+   "psnr": 22.9,
+   "ms": 0.49
+  },
+  {
+   "noise": "salt-and-pepper noise (4%)",
+   "filter": "bilateral (9, 50, 50)",
+   "psnr": 19.1,
+   "ms": 6.38
+  }
+ ],
+ "gradient": {
+  "sobel_mean": 88.03547668457031,
+  "laplacian_std": 29.47333526611328
+ },
+ "canny_sweep": [
+  {
+   "setting": "auto, sigma 0.1",
+   "low": 108,
+   "high": 133,
+   "density": 0.278
+  },
+  {
+   "setting": "auto, sigma 0.33",
+   "low": 81,
+   "high": 160,
+   "density": 0.291
+  },
+  {
+   "setting": "auto, sigma 0.66",
+   "low": 41,
+   "high": 200,
+   "density": 0.292
+  },
+  {
+   "setting": "fixed 40/80",
+   "low": 40,
+   "high": 80,
+   "density": 0.314
+  },
+  {
+   "setting": "fixed 100/200",
+   "low": 100,
+   "high": 200,
+   "density": 0.269
+  },
+  {
+   "setting": "fixed 160/255",
+   "low": 160,
+   "high": 255,
+   "density": 0.189
+  }
+ ],
+ "threshold_compare": [
+  {
+   "method": "fixed 127 on grey",
+   "agreement": 0.504
+  },
+  {
+   "method": "Otsu on grey (93)",
+   "agreement": 0.296
+  },
+  {
+   "method": "adaptive mean, 31x31",
+   "agreement": 0.265
+  },
+  {
+   "method": "adaptive Gaussian, 31x31",
+   "agreement": 0.264
+  },
+  {
+   "method": "used: chroma distance, Otsu, hysteresis",
+   "agreement": 1.0
+  }
+ ],
+ "equalise": [
+  {
+   "method": "no equalisation",
+   "std": 30.3,
+   "clipped": 0.0
+  },
+  {
+   "method": "equalizeHist (global)",
+   "std": 44.0,
+   "clipped": 0.0
+  },
+  {
+   "method": "CLAHE clip 1",
+   "std": 40.3,
+   "clipped": 0.0
+  },
+  {
+   "method": "CLAHE clip 2 (used)",
+   "std": 47.9,
+   "clipped": 0.0
+  },
+  {
+   "method": "CLAHE clip 4",
+   "std": 58.8,
+   "clipped": 0.0
+  },
+  {
+   "method": "CLAHE clip 8",
+   "std": 64.3,
+   "clipped": 0.4
+  }
+ ],
+ "morph_table": [
+  {
+   "shape": "rectangle",
+   "size": 3,
+   "pixels": 605,
+   "blobs": 12
+  },
+  {
+   "shape": "rectangle",
+   "size": 5,
+   "pixels": 353,
+   "blobs": 7
+  },
+  {
+   "shape": "rectangle",
+   "size": 7,
+   "pixels": 0,
+   "blobs": 0
+  },
+  {
+   "shape": "ellipse",
+   "size": 3,
+   "pixels": 633,
+   "blobs": 12
+  },
+  {
+   "shape": "ellipse",
+   "size": 5,
+   "pixels": 512,
+   "blobs": 9
+  },
+  {
+   "shape": "ellipse",
+   "size": 7,
+   "pixels": 285,
+   "blobs": 7
+  },
+  {
+   "shape": "cross",
+   "size": 3,
+   "pixels": 633,
+   "blobs": 12
+  },
+  {
+   "shape": "cross",
+   "size": 5,
+   "pixels": 486,
+   "blobs": 10
+  },
+  {
+   "shape": "cross",
+   "size": 7,
+   "pixels": 195,
+   "blobs": 7
+  }
+ ],
+ "raw_pixels": 784,
+ "resize": []
+}

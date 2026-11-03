@@ -1,0 +1,301 @@
+path,label,iou
+data/raw/Bacterial_spot/2731979e-e02a-4736-8475-4542fcc6f596___UF.GRC_BS_Lab Leaf 0227.JPG,Bacterial_spot,0.9360760781122864
+data/raw/Bacterial_spot/26503027-c1b5-491a-b9eb-2002d9aa7e77___GCREC_Bact.Sp 5622.JPG,Bacterial_spot,0.979161572526965
+data/raw/Bacterial_spot/81349fa9-f5ca-449c-8f10-47788ed939a4___GCREC_Bact.Sp 6153.JPG,Bacterial_spot,0.9723876731839959
+data/raw/Bacterial_spot/d90c232c-8940-4931-8b77-346b7fecf992___GCREC_Bact.Sp 3729.JPG,Bacterial_spot,0.9723069561576649
+data/raw/Bacterial_spot/55ab0db9-5d18-4634-ab2a-db1a2c3f4299___UF.GRC_BS_Lab Leaf 1032.JPG,Bacterial_spot,0.9515168305859537
+data/raw/Bacterial_spot/fd3a25ef-50f2-4ca2-a20d-d0a99bcbae13___GCREC_Bact.Sp 6394.JPG,Bacterial_spot,0.9337937246659661
+data/raw/Bacterial_spot/431d6abc-9adb-4454-a3c6-e6b6a3ec79db___GCREC_Bact.Sp 6045.JPG,Bacterial_spot,0.9569857463280516
+data/raw/Bacterial_spot/288896d1-7094-4250-9fd6-00589c41b42a___UF.GRC_BS_Lab Leaf 0264.JPG,Bacterial_spot,0.918664327941272
+data/raw/Bacterial_spot/46c03e65-7398-4ecb-aca4-69c0edb3015b___GCREC_Bact.Sp 5724.JPG,Bacterial_spot,0.9733963728741797
+data/raw/Bacterial_spot/be5c54f2-f81d-4365-ac23-6a1c4ce3c8d8___GCREC_Bact.Sp 3611.JPG,Bacterial_spot,0.9740488788107836
+data/raw/Bacterial_spot/44ddc088-1234-4cc8-aa29-e695104a7d1b___GCREC_Bact.Sp 6162.JPG,Bacterial_spot,0.9624995873634173
+data/raw/Bacterial_spot/aaa27c3b-ff24-4d91-9c0c-fe68862ab77e___GCREC_Bact.Sp 3616.JPG,Bacterial_spot,0.9627583384489462
+data/raw/Bacterial_spot/471a3798-e544-4f38-b0dc-bd8ccafcdafc___GCREC_Bact.Sp 3607.JPG,Bacterial_spot,0.9704637381243533
+data/raw/Bacterial_spot/23f67e39-1b4b-4296-a8a2-2a15890d0529___GCREC_Bact.Sp 3364.JPG,Bacterial_spot,0.9588887722612924
+data/raw/Bacterial_spot/604cb86e-6490-4cb4-b1f4-5cb57a5823ba___GCREC_Bact.Sp 3369.JPG,Bacterial_spot,0.9730628533422016
+data/raw/Bacterial_spot/06ac210d-bdb1-4224-9053-c218cb14fa60___GCREC_Bact.Sp 3220.JPG,Bacterial_spot,0.9715948647971261
+data/raw/Bacterial_spot/93fb2f61-879a-441a-a446-5789c81b4249___UF.GRC_BS_Lab Leaf 0432.JPG,Bacterial_spot,0.9218205262906538
+data/raw/Bacterial_spot/37f07271-2a51-4ebd-8346-d9703f725998___GCREC_Bact.Sp 3238.JPG,Bacterial_spot,0.9748927491384767
+data/raw/Bacterial_spot/0493c0e5-27e3-41d6-81f0-7830cef39080___UF.GRC_BS_Lab Leaf 8615.JPG,Bacterial_spot,0.9482853547270725
+data/raw/Bacterial_spot/35c80526-d4ca-4742-9903-6a9463c532e4___GCREC_Bact.Sp 2965.JPG,Bacterial_spot,0.9701310162242889
+data/raw/Bacterial_spot/a4208fb2-ff57-41f1-bc52-30d69736076c___GCREC_Bact.Sp 3441.JPG,Bacterial_spot,0.9643908181283107
+data/raw/Bacterial_spot/759ba7d2-9535-45b5-a11d-935602edf6cd___GCREC_Bact.Sp 3314.JPG,Bacterial_spot,0.957971782473339
+data/raw/Bacterial_spot/e1a293e6-03fa-4513-b45b-94fbe2d0b748___GCREC_Bact.Sp 3833.JPG,Bacterial_spot,0.9748463002839934
+data/raw/Bacterial_spot/6a7ed25b-d34f-4f33-84ab-56efcd5eed15___GCREC_Bact.Sp 3830.JPG,Bacterial_spot,0.977209434498437
+data/raw/Bacterial_spot/833f13d8-0efb-4138-9d76-953ba4a88553___GCREC_Bact.Sp 5962.JPG,Bacterial_spot,0.9805981765621525
+data/raw/Bacterial_spot/ce71eb1e-cf9d-465b-adc2-15eb07c9e687___GCREC_Bact.Sp 3394.JPG,Bacterial_spot,0.9759475847007097
+data/raw/Bacterial_spot/ccafbe60-2783-45b3-a73b-16f93a301cf5___GCREC_Bact.Sp 3395.JPG,Bacterial_spot,0.9755670917503668
+data/raw/Bacterial_spot/a658a5b1-c587-4757-81a8-a299b0944616___GCREC_Bact.Sp 6019.JPG,Bacterial_spot,0.9761692650334076
+data/raw/Bacterial_spot/d5b68019-d730-432d-80b5-dcd87b39742d___UF.GRC_BS_Lab Leaf 1200.JPG,Bacterial_spot,0.9481952229640472
+data/raw/Bacterial_spot/526959cc-f05a-46fb-8625-ed60fdac30cd___GCREC_Bact.Sp 3032.JPG,Bacterial_spot,0.9756747850573679
+data/raw/Bacterial_spot/bba175d5-0107-4ea9-b485-00d169678afd___GCREC_Bact.Sp 6380.JPG,Bacterial_spot,0.974699063753901
+data/raw/Bacterial_spot/ed618153-da70-475f-be98-cc2b9c28214b___GCREC_Bact.Sp 6211.JPG,Bacterial_spot,0.9589052332257888
+data/raw/Bacterial_spot/10eddc16-1127-4de1-832e-6ae55cc0f953___GCREC_Bact.Sp 6180.JPG,Bacterial_spot,0.9742892526383804
+data/raw/Bacterial_spot/c8bfa39f-b92f-4c10-98e6-ff3600445c24___UF.GRC_BS_Lab Leaf 8759.JPG,Bacterial_spot,0.9412858401017712
+data/raw/Bacterial_spot/3d41d2d9-7014-4409-a953-21227ef9d8e1___GCREC_Bact.Sp 3699.JPG,Bacterial_spot,0.9682512442079972
+data/raw/Bacterial_spot/25a94cb1-a32d-4da4-a379-4d5732fb6f5e___GCREC_Bact.Sp 3615.JPG,Bacterial_spot,0.9639214536928488
+data/raw/Bacterial_spot/4dcc0165-a3c5-4290-8262-16c63b677a7d___GCREC_Bact.Sp 3602.JPG,Bacterial_spot,0.9676460571534723
+data/raw/Bacterial_spot/a9045c2f-df74-4d31-8e2f-f3ce3d6753e2___GCREC_Bact.Sp 3026.JPG,Bacterial_spot,0.9772792969879169
+data/raw/Bacterial_spot/27ebdaaa-b432-4d4a-b404-a04e58a46f44___GCREC_Bact.Sp 6025.JPG,Bacterial_spot,0.9760234706953531
+data/raw/Bacterial_spot/01d7f4fe-793f-4a9b-bc8b-8aa05200984f___GCREC_Bact.Sp 2984.JPG,Bacterial_spot,0.9824535535240342
+data/raw/Bacterial_spot/251b4763-59dd-49a8-99a6-6cf50b239454___GCREC_Bact.Sp 3589.JPG,Bacterial_spot,0.9755676837372395
+data/raw/Bacterial_spot/ed17ee54-fc7b-43a7-8945-c8ddc3b4dfdb___GCREC_Bact.Sp 5741.JPG,Bacterial_spot,0.9742421812349639
+data/raw/Bacterial_spot/abaa3e58-7511-4988-a555-b436b0aae002___GCREC_Bact.Sp 6161.JPG,Bacterial_spot,0.9501224080464855
+data/raw/Bacterial_spot/f24c87bb-3965-435e-b189-0f9c924f9015___GCREC_Bact.Sp 3741.JPG,Bacterial_spot,0.9766587364525509
+data/raw/Bacterial_spot/2353ecb8-d1bb-4e2c-bb0f-7a0c90b5cdf4___UF.GRC_BS_Lab Leaf 8717.JPG,Bacterial_spot,0.9446304782046763
+data/raw/Bacterial_spot/dc206acc-605b-4a85-a35b-44ce62f0ea7e___GCREC_Bact.Sp 6055.JPG,Bacterial_spot,0.972639545884579
+data/raw/Bacterial_spot/99187376-a5c2-41a7-9eb5-73cc0b2e5c2d___GCREC_Bact.Sp 3137.JPG,Bacterial_spot,0.9655964054967039
+data/raw/Bacterial_spot/2d9b4cc9-3b21-4e0c-830f-b97ed7bfb397___GCREC_Bact.Sp 3444.JPG,Bacterial_spot,0.9711594891428891
+data/raw/Bacterial_spot/6a416698-31f1-4625-8c83-195721e70508___GCREC_Bact.Sp 3339.JPG,Bacterial_spot,0.9643922564265313
+data/raw/Bacterial_spot/7218c0f5-1083-4b2d-b0da-4c32edb279de___GCREC_Bact.Sp 3286.JPG,Bacterial_spot,0.9754996565372411
+data/raw/Early_blight/cd2d8a7b-2389-4a2c-8647-b986092fa506___RS_Erly.B 8377.JPG,Early_blight,0.9721231850359118
+data/raw/Early_blight/4283992b-ab8a-41aa-baeb-17a5b0f75af1___RS_Erly.B 7621.JPG,Early_blight,0.7943503864556496
+data/raw/Early_blight/2606a4ae-7b2f-4fd6-a561-fc9dce2ffc02___RS_Erly.B 9570.JPG,Early_blight,0.9091992373689228
+data/raw/Early_blight/c8412a1c-4e61-4a35-9538-c3d3a7c46cbe___RS_Erly.B 7383.JPG,Early_blight,0.9673987645847633
+data/raw/Early_blight/e626a672-48b8-490d-8314-a70ff37153f4___RS_Erly.B 7467.JPG,Early_blight,0.9085355210333391
+data/raw/Early_blight/ad302c48-1f27-43d8-b004-4ca61dfa61c1___RS_Erly.B 7566.JPG,Early_blight,0.9024012166944517
+data/raw/Early_blight/3205c4f9-9dd4-44ce-8e4c-0bd93405d60b___RS_Erly.B 6331.JPG,Early_blight,0.9363695794290695
+data/raw/Early_blight/df86b9f1-3871-4139-be7d-928bd3e6d642___RS_Erly.B 7497.JPG,Early_blight,0.9047929218911144
+data/raw/Early_blight/53bb67c4-0fef-4f13-b4a3-206d06155ffc___RS_Erly.B 6434.JPG,Early_blight,0.8900338724297505
+data/raw/Early_blight/872ec950-8238-4f73-a366-f72f2f92d3fe___RS_Erly.B 7487.JPG,Early_blight,0.8801593494599368
+data/raw/Early_blight/e5266d06-0ba7-49c6-9bc6-c8351b56fc88___RS_Erly.B 8294.JPG,Early_blight,0.9302103504071726
+data/raw/Early_blight/3b86d42f-4b22-4bfe-bfa9-ec4567c886dc___RS_Erly.B 7823.JPG,Early_blight,0.8385048028311426
+data/raw/Early_blight/2165f0a3-1265-491d-ad8a-e53102a87e9b___RS_Erly.B 9376.JPG,Early_blight,0.8842831720126741
+data/raw/Early_blight/d96c3244-39ec-4188-9870-a6e32aad81d6___RS_Erly.B 7540.JPG,Early_blight,0.8931246422972603
+data/raw/Early_blight/164f6427-eeed-42da-bb51-ec07a57840dc___RS_Erly.B 9372.JPG,Early_blight,0.8192950367362123
+data/raw/Early_blight/074bc781-f586-46b0-bef5-0237e3bf5043___RS_Erly.B 8375.JPG,Early_blight,0.9675176158022409
+data/raw/Early_blight/a8d430c0-7dff-4474-a6c1-1fd601198ff6___RS_Erly.B 7738.JPG,Early_blight,0.968129614438064
+data/raw/Early_blight/d59a0542-4c2a-441b-8566-e1f741e917d4___RS_Erly.B 6437.JPG,Early_blight,0.7984201537147737
+data/raw/Early_blight/c66ca8bd-a004-4efb-a66c-3be5168aaaca___RS_Erly.B 7826.JPG,Early_blight,0.9549677632666557
+data/raw/Early_blight/2bdecb58-7e31-4129-83ff-125b7a31c0f6___RS_Erly.B 9506.JPG,Early_blight,0.939673687780248
+data/raw/Early_blight/43e84adf-0897-47dc-97a4-94ef0e83eef5___RS_Erly.B 6399.JPG,Early_blight,0.9387675810086253
+data/raw/Early_blight/2ab7f21e-4a55-4895-acdb-5f161167a0f1___RS_Erly.B 8318.JPG,Early_blight,0.854733600687482
+data/raw/Early_blight/72c6a88e-87d8-45cb-8001-3dd67f90d46c___RS_Erly.B 8245.JPG,Early_blight,0.9546828756006747
+data/raw/Early_blight/573fc55b-8a73-48ba-b916-5d7f397977e4___RS_Erly.B 8384.JPG,Early_blight,0.9642328704757569
+data/raw/Early_blight/e3b74c49-7e82-4094-8a02-5ae7644a1d00___RS_Erly.B 7393.JPG,Early_blight,0.9487526519862463
+data/raw/Early_blight/0c865fa4-b0bf-4e69-b39a-d97b068cef84___RS_Erly.B 7477.JPG,Early_blight,0.8768465246462448
+data/raw/Early_blight/e701c578-1fa3-4ed3-9874-5f90c6d2eb3c___RS_Erly.B 9583.JPG,Early_blight,0.8674839085292881
+data/raw/Early_blight/c78c9d19-e83d-4c3b-a690-e6e3b95c979d___RS_Erly.B 9569.JPG,Early_blight,0.9146092104861598
+data/raw/Early_blight/c3e85d27-e5e0-4897-a039-22640e696184___RS_Erly.B 9459.JPG,Early_blight,0.9677942231552096
+data/raw/Early_blight/9e92ea05-2e0f-42cb-be52-f58745ee9acc___RS_Erly.B 9476.JPG,Early_blight,0.913237281799097
+data/raw/Early_blight/79c34498-d83f-4afd-a339-074b4dbb20bd___RS_Erly.B 8450.JPG,Early_blight,0.9459329990738671
+data/raw/Early_blight/f0eb00dc-22da-4c8b-b86d-72157ea9e71d___RS_Erly.B 9610.JPG,Early_blight,0.9459084156817155
+data/raw/Early_blight/d0b75b16-bdf9-4e9d-bac9-47bf98c6258a___RS_Erly.B 6416.JPG,Early_blight,0.8860059403912465
+data/raw/Early_blight/258e6e39-d791-482c-921d-65048753770a___RS_Erly.B 9422.JPG,Early_blight,0.8929498984747604
+data/raw/Early_blight/ee69b7e2-34d6-455f-97f6-6f5c06216131___RS_Erly.B 7478.JPG,Early_blight,0.8616966425040187
+data/raw/Early_blight/ff83852f-65e0-4981-8c66-6b86d34b32c2___RS_Erly.B 9582.JPG,Early_blight,0.8462769931338717
+data/raw/Early_blight/d4d20c99-4cf3-4ecc-95ae-a964560cfeed___RS_Erly.B 9604.JPG,Early_blight,0.8737461347009579
+data/raw/Early_blight/8597694d-3162-40ab-9f5b-e8c7cf03e045___RS_Erly.B 9485.JPG,Early_blight,0.9683766871800176
+data/raw/Early_blight/8734e1ef-fb0c-4cdd-aa97-b5a4ea8d6cf5___RS_Erly.B 7804.JPG,Early_blight,0.8951381884204156
+data/raw/Early_blight/d529889a-662a-4321-9bd8-888244d50af8___RS_Erly.B 8381.JPG,Early_blight,0.960462003956709
+data/raw/Early_blight/0e03c87e-b43f-4cfe-a837-71306c68f4c0___RS_Erly.B 7733.JPG,Early_blight,0.9407941666006182
+data/raw/Early_blight/bbcccb3c-bcf2-4dc9-b2e2-6aecd86f52d5___RS_Erly.B 8370.JPG,Early_blight,0.8734690090313003
+data/raw/Early_blight/a3611dae-1359-41af-b506-0b012c37a451___RS_Erly.B 7368.JPG,Early_blight,0.931907391391125
+data/raw/Early_blight/535c3c4f-c082-4dd7-a98b-2e16cb377d89___RS_Erly.B 7770.JPG,Early_blight,0.9338390789164512
+data/raw/Early_blight/49c8f57f-3418-45db-b807-6192c20dfc6a___RS_Erly.B 7784.JPG,Early_blight,0.9591680814940577
+data/raw/Early_blight/375a4113-c296-4b3a-897b-da6f4ac660dc___RS_Erly.B 6408.JPG,Early_blight,0.8965713588481719
+data/raw/Early_blight/e11ee1f8-8de2-4d9c-a0c1-86bc42350fd9___RS_Erly.B 9472.JPG,Early_blight,0.8900843441719072
+data/raw/Early_blight/38b7f839-7d01-4062-a858-a64b841b7996___RS_Erly.B 7390.JPG,Early_blight,0.9628437450325862
+data/raw/Early_blight/9a2960cc-21cf-470c-990e-e315699c2029___RS_Erly.B 9467.JPG,Early_blight,0.9309500071214927
+data/raw/Early_blight/5b71fe03-84fc-4866-9bf8-e557ce918c6e___RS_Erly.B 9580.JPG,Early_blight,0.9017002149697089
+data/raw/Healthy/cf021ef4-2bde-4984-8604-c813cb195fe4___RS_HL 0490.JPG,Healthy,0.9676032550284047
+data/raw/Healthy/824ae544-73d2-448a-b442-a8d2cdd83922___RS_HL 9900.JPG,Healthy,0.9476572133168927
+data/raw/Healthy/3005a6ed-8ede-4bc5-ab3c-a54f87c45716___GH_HL Leaf 353.1.JPG,Healthy,0.9722244109999212
+data/raw/Healthy/c0b3ea2d-4889-4693-8590-cef2d32b81e3___RS_HL 0370.JPG,Healthy,0.9636261366832286
+data/raw/Healthy/4f09b157-f5d2-4f99-ac0a-1be52cc7a27d___RS_HL 0402.JPG,Healthy,0.9612952918899836
+data/raw/Healthy/d4fc1abf-fd0d-4625-9882-36acd3755ede___RS_HL 0307.JPG,Healthy,0.9499197319745935
+data/raw/Healthy/4a0a9092-e70e-4a73-bb51-4d83b3c90a38___GH_HL Leaf 195.JPG,Healthy,0.9648771312916548
+data/raw/Healthy/d3862da2-c8a4-4a40-98db-7148e5e7d2c9___RS_HL 9906.JPG,Healthy,0.9494442232905655
+data/raw/Healthy/d30f0e3c-7246-455d-959c-6221eac22dfd___GH_HL Leaf 202.JPG,Healthy,0.954218999965962
+data/raw/Healthy/ce9cef60-51af-4e89-bbe7-bf463d767e99___RS_HL 0614.JPG,Healthy,0.9552774716484767
+data/raw/Healthy/0a9986e6-b629-4ff5-8aab-7488ea9b935b___RS_HL 9704.JPG,Healthy,0.9597471022128556
+data/raw/Healthy/b3eaae0f-95b4-4bb5-89b5-4460cf79e554___RS_HL 0583.JPG,Healthy,0.960549321295737
+data/raw/Healthy/afbedba8-4d3a-4816-9c55-bd666d262b59___RS_HL 9841.JPG,Healthy,0.8739833047945206
+data/raw/Healthy/aa464ad5-f7d0-44ee-9042-fb4a4a64b7cd___RS_HL 9936.JPG,Healthy,0.9424827733942661
+data/raw/Healthy/0988fc05-ee41-4e17-9f28-fbdd03266ae6___RS_HL 9928.JPG,Healthy,0.9590917879733724
+data/raw/Healthy/65d89a16-45b5-4ce7-9dad-f702c4b14e95___RS_HL 9896.JPG,Healthy,0.938677105960423
+data/raw/Healthy/f9546cff-061d-4240-88ba-492272a92847___GH_HL Leaf 176.2.JPG,Healthy,0.961616380869691
+data/raw/Healthy/409c349a-7738-41fc-8a3a-844cd33cfcae___RS_HL 9825.JPG,Healthy,0.9304536910772859
+data/raw/Healthy/6fc5b781-6757-459f-af96-09a67dbcb2bc___RS_HL 0607.JPG,Healthy,0.9528540517477829
+data/raw/Healthy/2a11ceb9-41c9-4f2e-bed9-ef1c1c7d479b___RS_HL 0371.JPG,Healthy,0.9620940856895913
+data/raw/Healthy/e1aeb847-e87b-4f24-aca7-c6e06b6c07ca___GH_HL Leaf 185.JPG,Healthy,0.9552408738347684
+data/raw/Healthy/feda8fd2-1d18-443e-a7d9-15bd6bf8ce66___RS_HL 0332.JPG,Healthy,0.9508350688064029
+data/raw/Healthy/9be696de-84ac-4275-b9b0-a6a54e8a1813___GH_HL Leaf 244.JPG,Healthy,0.9757555381224551
+data/raw/Healthy/0e3feb72-86e5-41c2-a7ca-3295800e5777___RS_HL 0158.JPG,Healthy,0.9529446802174075
+data/raw/Healthy/ca15ccb7-1f30-4dd6-aa46-8494a41c3a9d___RS_HL 9757.JPG,Healthy,0.9251282051282051
+data/raw/Healthy/61db52ae-d868-4ba0-bac0-b2c9dc539cd8___RS_HL 0140.JPG,Healthy,0.9514678174193156
+data/raw/Healthy/c866865c-d239-48ff-9134-92df32fe972a___RS_HL 9791.JPG,Healthy,0.8408490757668089
+data/raw/Healthy/984d9db2-082d-446b-8991-870090c447bb___RS_HL 0274.JPG,Healthy,0.952954517592252
+data/raw/Healthy/9dcb8870-47cb-4816-bb88-a435b5844cf6___GH_HL Leaf 207.JPG,Healthy,0.9671632181216893
+data/raw/Healthy/e5d58d21-5846-47aa-a0f7-e5f39c8f8567___RS_HL 0447.JPG,Healthy,0.9500449422664731
+data/raw/Healthy/87d30769-5aea-4648-8105-788267115242___GH_HL Leaf 414.1.JPG,Healthy,0.9702391342293594
+data/raw/Healthy/ec1137c0-ec94-4d00-aabd-97bb603f94c4___GH_HL Leaf 407.JPG,Healthy,0.97106149957877
+data/raw/Healthy/f60f6c8b-54f7-4002-b26d-636037912c4d___RS_HL 9956.JPG,Healthy,0.9621578612348822
+data/raw/Healthy/fad6841f-6194-4cf4-8101-b42206bd476c___RS_HL 0411.JPG,Healthy,0.9556711606096131
+data/raw/Healthy/e36e5c2c-277b-4e8f-b12b-46df2e569c85___GH_HL Leaf 187.1.JPG,Healthy,0.9674547983310153
+data/raw/Healthy/e84eced1-c0a4-451a-b5bd-482bc3eda5fa___RS_HL 0304.JPG,Healthy,0.9467444120505345
+data/raw/Healthy/29d9f827-5e61-4b9b-acba-db0e7ce2016d___GH_HL Leaf 480.JPG,Healthy,0.9352914180816888
+data/raw/Healthy/c60749f0-0791-49ad-a144-503d5e968746___RS_HL 0483.JPG,Healthy,0.9605036659228562
+data/raw/Healthy/6aed746b-e45b-40d6-addb-71bdd0456618___RS_HL 0638.JPG,Healthy,0.9576427898538084
+data/raw/Healthy/98e0a217-023f-45ad-a1b7-3719a5fdea49___GH_HL Leaf 283.JPG,Healthy,0.9661301790446643
+data/raw/Healthy/3be7ae8c-bacb-4877-b6b5-c2251d22b431___GH_HL Leaf 497.1.JPG,Healthy,0.932128580946036
+data/raw/Healthy/a6e38349-62a4-43e6-bf92-84bc17e6d8eb___GH_HL Leaf 485.1.JPG,Healthy,0.927115987460815
+data/raw/Healthy/4e3e2f5a-04a7-4142-aad1-acfa13344e33___GH_HL Leaf 358.JPG,Healthy,0.9594566280206733
+data/raw/Healthy/59f54d36-b98b-4271-88ed-7a9672907bee___RS_HL 0519.JPG,Healthy,0.9624581302026333
+data/raw/Healthy/12f2989a-82c7-41d1-ae23-93a6e85bfd57___RS_HL 9798.JPG,Healthy,0.9426954927618686
+data/raw/Healthy/982bdd12-cce3-413e-89ae-444ebc3ee32e___RS_HL 0487.JPG,Healthy,0.9708373467964261
+data/raw/Healthy/0c4b06d5-4053-44fc-99b6-504934fdd3a9___GH_HL Leaf 199.1.JPG,Healthy,0.9726590942187272
+data/raw/Healthy/798fdd0c-27d2-4e72-a359-bd00208e8b1a___GH_HL Leaf 207.1.JPG,Healthy,0.9724861721741597
+data/raw/Healthy/1e1aa3d8-d12f-47e1-b316-b8656ab3f2b6___RS_HL 0075.JPG,Healthy,0.9586142382503791
+data/raw/Healthy/ceb2bf82-b22d-43bb-9a32-cac11e19febd___RS_HL 0406.JPG,Healthy,0.9624674402083827
+data/raw/Late_blight/c3a5ec63-9d0d-48a2-898a-9bc31b4443a9___GHLB_PS Leaf 1.2 Day 16.jpg,Late_blight,0.9600669398118761
+data/raw/Late_blight/2c47b891-3c97-48f1-a2cc-5aa53d3a1148___GHLB2 Leaf 9011.JPG,Late_blight,0.8876321157055442
+data/raw/Late_blight/a6c7381f-fcfb-484b-a2f5-a435b66f5ea2___GHLB2 Leaf 112.JPG,Late_blight,0.9550050431744939
+data/raw/Late_blight/6153ccd5-1c83-493f-a6a6-bf0ec0964aaf___GHLB2 Leaf 9105.JPG,Late_blight,0.9271888423397147
+data/raw/Late_blight/a01034d4-69a1-4a6f-b05a-9561acba2ff2___GHLB2 Leaf 9057.JPG,Late_blight,0.9351204756441014
+data/raw/Late_blight/2f433332-c89a-482b-993b-37a3a10096e0___GHLB2 Leaf 8616.JPG,Late_blight,0.6929849208579189
+data/raw/Late_blight/75894286-9ce2-448e-8148-0f7fc3442689___GHLB Leaf 2.2 Day 12.JPG,Late_blight,0.9691316337441612
+data/raw/Late_blight/82090f30-20fa-4c5e-9bcc-9cfe7d64b56a___RS_Late.B 5395.JPG,Late_blight,0.9613089509143408
+data/raw/Late_blight/1847f41b-f412-46a2-90c1-21ba9aac6246___RS_Late.B 6816.JPG,Late_blight,0.9657045585400655
+data/raw/Late_blight/8c13a3dc-b380-4a2f-b468-660212d8dbf0___RS_Late.B 5405.JPG,Late_blight,0.9568550543768943
+data/raw/Late_blight/12c80d02-59c6-4db4-a96e-b28c3fdaf3c2___GHLB_PS Leaf 1.2 Day 9.jpg,Late_blight,0.9765760478083397
+data/raw/Late_blight/25b8f158-e12f-4f16-b968-f9e891264d28___RS_Late.B 6041.JPG,Late_blight,0.9579396092362344
+data/raw/Late_blight/8061d6e6-8237-4ad3-9270-b6711e3819dd___GHLB2 Leaf 8539.JPG,Late_blight,0.9454310516201709
+data/raw/Late_blight/3e01dcb7-e660-4403-861a-59a44d572565___GHLB Leaf 2 Day 7.JPG,Late_blight,0.9630491851998613
+data/raw/Late_blight/7ec8c270-72a5-4c84-bfdb-400735f5b35c___GHLB_PS Leaf 46 Day 18.jpg,Late_blight,0.9267541931025818
+data/raw/Late_blight/ccc1fb49-16b3-4cf6-b782-4b98e9429f7b___GHLB2 Leaf 8832.JPG,Late_blight,0.9353781512605042
+data/raw/Late_blight/1aa4ebf9-7329-4108-94f6-8b6e9592d690___GHLB2 Leaf 98.1.JPG,Late_blight,0.9013217744956387
+data/raw/Late_blight/c1114ce7-8c10-4854-8c07-66b3500ae853___GHLB_PS Leaf 8 Day 7.jpg,Late_blight,0.9494154504470085
+data/raw/Late_blight/83abc50b-0705-4165-a9f3-e67b7ad93bf0___RS_Late.B 6170.JPG,Late_blight,0.966582406471183
+data/raw/Late_blight/a1f7a744-1d30-4343-992c-b1521d924094___GHLB2 Leaf 8563.JPG,Late_blight,0.9017372966459128
+data/raw/Late_blight/af0ded43-0d73-4d40-bd97-2597806aa707___GHLB_PS Leaf 37 Day 13.jpg,Late_blight,0.9563421101313436
+data/raw/Late_blight/fb584346-7e1d-46d6-ae0b-365b6ccad7ce___GHLB2 Leaf 8981.JPG,Late_blight,0.9054980947196516
+data/raw/Late_blight/989d984b-eaef-4ae1-a850-c2ae65961bdf___GHLB2 Leaf 9026.JPG,Late_blight,0.9321011781785694
+data/raw/Late_blight/1507883d-7f10-4b69-88d4-db80850b1664___GHLB2 Leaf 154.JPG,Late_blight,0.9223632450085356
+data/raw/Late_blight/8826e278-b47e-4d1a-b7af-3dc1b77ef445___GHLB2 Leaf 8924.JPG,Late_blight,0.8806933293314324
+data/raw/Late_blight/4462526f-af54-4342-8f7d-56f5a6052e9b___GHLB2 Leaf 111.1.JPG,Late_blight,0.9288890685640362
+data/raw/Late_blight/eab0e4c2-79de-42ef-b9fd-19b4cb03d0e9___RS_Late.B 6979.JPG,Late_blight,0.9677426889657106
+data/raw/Late_blight/7ee00267-be66-4b6a-a207-0bf0046d28b6___RS_Late.B 6909.JPG,Late_blight,0.9453628364198667
+data/raw/Late_blight/e686c35e-fcb4-463b-ad2a-2c1da18135bb___GHLB2 Leaf 9023.JPG,Late_blight,0.9403959336543606
+data/raw/Late_blight/0ccaeb36-37ff-4328-91c8-99aabd68f442___RS_Late.B 6596.JPG,Late_blight,0.8925146510388918
+data/raw/Late_blight/a7c97904-d28e-4dd3-93d1-0758a44bba96___RS_Late.B 7089.JPG,Late_blight,0.9596927821958816
+data/raw/Late_blight/dd84ae03-7d7d-4e12-8f9f-f684abdcb320___RS_Late.B 5637.JPG,Late_blight,0.5883601968921919
+data/raw/Late_blight/d9459215-359a-48d1-babe-be3b7b11cd9d___GHLB Leaf 2 Day 12.JPG,Late_blight,0.9531893461321956
+data/raw/Late_blight/4b115bc3-911c-4e98-b948-a6a360f06a87___GHLB_PS Leaf 25 Day 9.jpg,Late_blight,0.8935195786581177
+data/raw/Late_blight/511ea2f2-d960-4cb2-9a0d-e049646a022e___RS_Late.B 5083.JPG,Late_blight,0.8965198644902987
+data/raw/Late_blight/8d58aa38-714a-45b6-b36d-fe52ab36aae8___GHLB Leaf 24.1 Day 12.JPG,Late_blight,0.964958043162635
+data/raw/Late_blight/c3a42f36-c157-43ce-b12b-af47bf026171___GHLB2 Leaf 105.1.JPG,Late_blight,0.9700529450694904
+data/raw/Late_blight/63385691-5de8-4652-abe5-15727fdcab4b___RS_Late.B 5342.JPG,Late_blight,0.9624906226556639
+data/raw/Late_blight/72b670f0-6553-41bd-a619-e4bead34917e___GHLB2 Leaf 109.JPG,Late_blight,0.9436948391922214
+data/raw/Late_blight/88e31b4e-77e8-46ed-8e90-e48e6ec4e8eb___RS_Late.B 7077.JPG,Late_blight,0.6385112793004629
+data/raw/Late_blight/e4da845b-394d-4c3b-8f7c-cdab011acafd___RS_Late.B 6712.JPG,Late_blight,0.9672493413037935
+data/raw/Late_blight/fbd28294-04c7-4f8a-8576-f523856c46d9___RS_Late.B 6640.JPG,Late_blight,0.9345228306747794
+data/raw/Late_blight/b17fad17-1d16-4a55-9b4e-d1a35ddbb611___GHLB2 Leaf 8933.JPG,Late_blight,0.8980818780417978
+data/raw/Late_blight/51c47d39-74a9-46d4-be22-05b9c5a16eae___RS_Late.B 5557.JPG,Late_blight,0.929958183990442
+data/raw/Late_blight/d08bee32-4f76-4a08-9158-69fe55da2ddb___GHLB Leaf 23 Day 12.JPG,Late_blight,0.9611629420698633
+data/raw/Late_blight/b0e6fd13-ea0c-4e04-bdd3-70878b71f353___GHLB2 Leaf 106.1.JPG,Late_blight,0.9659942162293996
+data/raw/Late_blight/bd38d701-9972-4472-852c-b4e27f6d72e2___RS_Late.B 6581.JPG,Late_blight,0.9471483482235612
+data/raw/Late_blight/0fca6d09-1931-4767-a195-1dd2b7cd10b7___GHLB Leaf 8 Day 12.JPG,Late_blight,0.9682273026075524
+data/raw/Late_blight/63184ff1-7a41-4cc3-9ff8-0ad46c45944a___GHLB2 Leaf 8614.JPG,Late_blight,0.8443252243085746
+data/raw/Late_blight/3152f2ab-94e6-4e06-8fb9-568c45d31b0b___RS_Late.B 6175.JPG,Late_blight,0.9709738599818587
+data/raw/Leaf_Mold/301d7712-9538-418b-a767-041aa830d1ad___Crnl_L.Mold 6711.JPG,Leaf_Mold,0.9248650892486509
+data/raw/Leaf_Mold/59ad7ddc-9db9-4a9f-b067-e190e0a494e7___Crnl_L.Mold 6566.JPG,Leaf_Mold,0.9467075805492062
+data/raw/Leaf_Mold/60d51b5b-d8ac-411b-bb3a-98d75f5965c6___Crnl_L.Mold 9178.JPG,Leaf_Mold,0.6946385284471696
+data/raw/Leaf_Mold/546f348a-359a-4cff-8cdd-c87ecb1cec95___Crnl_L.Mold 6873.JPG,Leaf_Mold,0.9560034305317324
+data/raw/Leaf_Mold/44400a5b-bbc1-4298-bf1a-d104eea5cda8___Crnl_L.Mold 6718.JPG,Leaf_Mold,0.929162072767365
+data/raw/Leaf_Mold/53a46a74-0eb9-43e4-9480-1540475cf419___Crnl_L.Mold 8892.JPG,Leaf_Mold,0.9307867982908502
+data/raw/Leaf_Mold/cabcabd6-628c-444d-a7cd-49f44ddbb3e9___Crnl_L.Mold 6579.JPG,Leaf_Mold,0.9375322072716862
+data/raw/Leaf_Mold/f85b350c-a7cf-4652-87e7-5e039e82021d___Crnl_L.Mold 8927.JPG,Leaf_Mold,0.9164527674342938
+data/raw/Leaf_Mold/7e0d709c-7399-4cad-84d4-892854831ee7___Crnl_L.Mold 6694.JPG,Leaf_Mold,0.9426700161492912
+data/raw/Leaf_Mold/d3046708-324c-48cc-acff-28c8020485d5___Crnl_L.Mold 9053.JPG,Leaf_Mold,0.504298178085707
+data/raw/Leaf_Mold/32245a13-92fe-48bf-85c8-938819a057ee___Crnl_L.Mold 8643.JPG,Leaf_Mold,0.907635765752696
+data/raw/Leaf_Mold/bd6dc03e-b3f0-4b30-81f8-8ac3205d4d49___Crnl_L.Mold 8849.JPG,Leaf_Mold,0.9117011877883577
+data/raw/Leaf_Mold/6540d96a-71ba-4c91-8319-c0f4019a1b8e___Crnl_L.Mold 6910.JPG,Leaf_Mold,0.9317096696407041
+data/raw/Leaf_Mold/27c4fc3e-760a-4d3c-8552-bb5ca4eab3d8___Crnl_L.Mold 6781.JPG,Leaf_Mold,0.942074974452751
+data/raw/Leaf_Mold/1826cec0-4c4e-4924-a992-e70eb2a0097e___Crnl_L.Mold 6638.JPG,Leaf_Mold,0.9603653755684491
+data/raw/Leaf_Mold/26088b3b-58c2-4037-90e3-8c8d8c4cf441___Crnl_L.Mold 9119.JPG,Leaf_Mold,0.4840740995168418
+data/raw/Leaf_Mold/bf28a373-d2bc-4f16-8153-4b85c0cba6b9___Crnl_L.Mold 8929.JPG,Leaf_Mold,0.5391950001335435
+data/raw/Leaf_Mold/a18ef1c1-96c1-42ee-8ad7-c78283c8fc4f___Crnl_L.Mold 7023.JPG,Leaf_Mold,0.924912090884501
+data/raw/Leaf_Mold/269f3e0a-4d4f-4598-b19d-9f5428342464___Crnl_L.Mold 8745.JPG,Leaf_Mold,0.8953145581132785
+data/raw/Leaf_Mold/0eda4dc5-7f7b-4e27-9e53-1e0326eef88e___Crnl_L.Mold 8850.JPG,Leaf_Mold,0.9389603667553978
+data/raw/Leaf_Mold/cbbe1216-6d33-4a63-9985-f5b1a2120027___Crnl_L.Mold 6625.JPG,Leaf_Mold,0.9623641664457991
+data/raw/Leaf_Mold/b190b148-9621-404b-a3a1-e697d2d40f42___Crnl_L.Mold 8656.JPG,Leaf_Mold,0.9050880626223092
+data/raw/Leaf_Mold/146ceb05-4beb-4a1c-9ba5-233f9f1ff0fa___Crnl_L.Mold 6985.JPG,Leaf_Mold,0.92152466367713
+data/raw/Leaf_Mold/1b2db321-28cd-4e33-88eb-b6c1302ca033___Crnl_L.Mold 6701.JPG,Leaf_Mold,0.9437178337031966
+data/raw/Leaf_Mold/98a11218-40d3-4c27-afda-abf73e371f01___Crnl_L.Mold 9055.JPG,Leaf_Mold,0.6787548718478177
+data/raw/Leaf_Mold/6c65f54e-41fe-4865-977a-524421d5fca3___Crnl_L.Mold 9040.JPG,Leaf_Mold,0.5340509477656746
+data/raw/Leaf_Mold/7a8f225e-a87c-47ca-a49d-27b620951a4e___Crnl_L.Mold 6497.JPG,Leaf_Mold,0.9346988893229894
+data/raw/Leaf_Mold/af7e1ce4-bb49-4227-ba89-9972bab473b7___Crnl_L.Mold 6560.JPG,Leaf_Mold,0.9377794537520875
+data/raw/Leaf_Mold/bd569413-f52c-4e92-9bfb-54e2baae7d31___Crnl_L.Mold 6645.JPG,Leaf_Mold,0.9331548633081853
+data/raw/Leaf_Mold/b66c322b-7fc4-4d0a-9e57-afe7a58b0c1b___Crnl_L.Mold 6554.JPG,Leaf_Mold,0.9549597616824508
+data/raw/Leaf_Mold/9d807622-ab39-4aa3-a70a-a2a62aa17679___Crnl_L.Mold 9136.JPG,Leaf_Mold,0.43517339914274583
+data/raw/Leaf_Mold/0ba88812-fa4f-4602-bcec-c03cd7d0ba2b___Crnl_L.Mold 6990.JPG,Leaf_Mold,0.8351411042944785
+data/raw/Leaf_Mold/041f3e00-0236-4d32-897f-8d13f3a9aa1f___Crnl_L.Mold 9135.JPG,Leaf_Mold,0.8806693775414451
+data/raw/Leaf_Mold/bb7c7fce-4601-43b6-b396-4f78ca7dd44c___Crnl_L.Mold 9013.JPG,Leaf_Mold,0.48672060923369825
+data/raw/Leaf_Mold/e1af66f2-f7a8-4ae8-8f79-f9b8e8508d58___Crnl_L.Mold 8697.JPG,Leaf_Mold,0.9280266538214516
+data/raw/Leaf_Mold/cfd41486-76c4-4a0e-b61b-848a4afdc553___Crnl_L.Mold 7157.JPG,Leaf_Mold,0.9353208404315729
+data/raw/Leaf_Mold/9fb7c429-8238-4032-9a4e-e5ac25742f88___Crnl_L.Mold 6867.JPG,Leaf_Mold,0.96139881521116
+data/raw/Leaf_Mold/7115a5d7-3157-4183-bda2-8d0b43f50276___Crnl_L.Mold 8898.JPG,Leaf_Mold,0.9268521602228345
+data/raw/Leaf_Mold/559675ba-6f1c-4d85-b66d-849c6b8845d4___Crnl_L.Mold 8651.JPG,Leaf_Mold,0.9387368344327417
+data/raw/Leaf_Mold/8c42c67d-817e-420b-8b70-92b4a32c46bc___Crnl_L.Mold 6501.JPG,Leaf_Mold,0.9513276591407166
+data/raw/Leaf_Mold/731cf3e6-e1a9-4258-9679-d7502ad51914___Crnl_L.Mold 7127.JPG,Leaf_Mold,0.914955403443269
+data/raw/Leaf_Mold/6e230511-861d-4ae8-8212-374417841b4c___Crnl_L.Mold 8894.JPG,Leaf_Mold,0.9378000490591162
+data/raw/Leaf_Mold/7e0c6168-99d7-4b8f-84fa-045b4bb798c5___Crnl_L.Mold 6830.JPG,Leaf_Mold,0.9547513141932875
+data/raw/Leaf_Mold/361dc151-4e5f-498a-8813-98c9e0ec806d___Crnl_L.Mold 6999.JPG,Leaf_Mold,0.9455904748719368
+data/raw/Leaf_Mold/f6c104df-09ed-467c-8e67-30d5bd5d7cd2___Crnl_L.Mold 6829.JPG,Leaf_Mold,0.9520881615664759
+data/raw/Leaf_Mold/93c02ade-4b3a-4401-836d-0577276c645c___Crnl_L.Mold 8736.JPG,Leaf_Mold,0.9083004284634126
+data/raw/Leaf_Mold/0462054e-f0aa-41a7-a9cc-95d0784b9767___Crnl_L.Mold 6547.JPG,Leaf_Mold,0.9469119831344929
+data/raw/Leaf_Mold/4505fb9f-e46f-4d8f-b63e-b7d389811dab___Crnl_L.Mold 6907.JPG,Leaf_Mold,0.926448362720403
+data/raw/Leaf_Mold/70e4ee54-f85e-461b-a35b-e35deb567620___Crnl_L.Mold 6516.JPG,Leaf_Mold,0.9364987796760594
+data/raw/Leaf_Mold/119fca56-2a51-4c1f-9ba3-85977da1fd3b___Crnl_L.Mold 6898.JPG,Leaf_Mold,0.9473659717051377
+data/raw/Septoria_leaf_spot/44eb0d62-ff10-4a60-bd2f-fc74300474b3___JR_Sept.L.S 2495.JPG,Septoria_leaf_spot,0.8883330964899815
+data/raw/Septoria_leaf_spot/f867e311-fc63-4516-80bb-2ba2af70a630___JR_Sept.L.S 8477.JPG,Septoria_leaf_spot,0.9597299921401822
+data/raw/Septoria_leaf_spot/8ddc7884-3f79-4284-8b11-bd68e156c5bf___Matt.S_CG 6554.JPG,Septoria_leaf_spot,0.9219942999894444
+data/raw/Septoria_leaf_spot/bc9fa92b-2ed1-40b2-96b6-eb15bff4c323___Matt.S_CG 1256.JPG,Septoria_leaf_spot,0.9151726490543153
+data/raw/Septoria_leaf_spot/34a98498-bbe1-4ba8-ac6b-158adb2de2b9___Matt.S_CG 0828.JPG,Septoria_leaf_spot,0.9407645875251509
+data/raw/Septoria_leaf_spot/f064c7e7-8d64-4df5-963b-7205cb57af41___Keller.St_CG 1815.JPG,Septoria_leaf_spot,0.9103646281940856
+data/raw/Septoria_leaf_spot/41efe5a6-94ca-4761-8543-fd42b09dc4a8___Matt.S_CG 6303.JPG,Septoria_leaf_spot,0.9321882001493652
+data/raw/Septoria_leaf_spot/c74c302b-0961-4004-89e5-ce1cb5563b54___Matt.S_CG 2700.JPG,Septoria_leaf_spot,0.9387504435406829
+data/raw/Septoria_leaf_spot/98da1654-e91d-48d7-931c-9642d46a9f77___JR_Sept.L.S 2634.JPG,Septoria_leaf_spot,0.9525700542535936
+data/raw/Septoria_leaf_spot/1de3c0cc-04c3-48d0-9493-96b9e9a237af___Matt.S_CG 7657.JPG,Septoria_leaf_spot,0.9495937318630296
+data/raw/Septoria_leaf_spot/548506b9-119b-47a9-b5c6-7c13abb7887b___Keller.St_CG 1811.JPG,Septoria_leaf_spot,0.911115751374678
+data/raw/Septoria_leaf_spot/c57b7d7a-c5dd-4866-9a7f-3ad5e356e992___Matt.S_CG 6593.JPG,Septoria_leaf_spot,0.9576544260700389
+data/raw/Septoria_leaf_spot/85d15808-c090-4c65-9994-cb98f581f9a2___Matt.S_CG 2739.JPG,Septoria_leaf_spot,0.9441746891577086
+data/raw/Septoria_leaf_spot/94445a4d-97cd-4db5-aedb-32da5756b2d7___JR_Sept.L.S 2498.JPG,Septoria_leaf_spot,0.9273572178084245
+data/raw/Septoria_leaf_spot/321a737f-773e-47ec-adb6-5f084d74adfb___Keller.St_CG 1994.JPG,Septoria_leaf_spot,0.8821512362389461
+data/raw/Septoria_leaf_spot/144f0195-69a2-4bdb-aebb-70f62b2bcff4___Matt.S_CG 7547.JPG,Septoria_leaf_spot,0.9570500141282848
+data/raw/Septoria_leaf_spot/54647a38-830d-49c7-b96c-f96ece03494a___Matt.S_CG 7585.JPG,Septoria_leaf_spot,0.9389918720082244
+data/raw/Septoria_leaf_spot/df46d711-05b9-48cd-b175-24391bbb92ad___Matt.S_CG 7664.JPG,Septoria_leaf_spot,0.9637982195845697
+data/raw/Septoria_leaf_spot/8a8675be-3990-4089-b64d-a5c5d28aacde___Keller.St_CG 2033.JPG,Septoria_leaf_spot,0.9330494540242
+data/raw/Septoria_leaf_spot/8e15b503-716a-4aa4-83f8-62c7d9aae2f1___Matt.S_CG 7655.JPG,Septoria_leaf_spot,0.953901539542235
+data/raw/Septoria_leaf_spot/7cf8bfef-e8d7-406b-b27c-e5e545096545___JR_Sept.L.S 8427.JPG,Septoria_leaf_spot,0.9128283601122162
+data/raw/Septoria_leaf_spot/d4fb9280-f7ef-4a32-9c1d-9162b666278c___Matt.S_CG 0906.JPG,Septoria_leaf_spot,0.952947539210384
+data/raw/Septoria_leaf_spot/e479d798-59a4-4ee7-ac68-730316ec65c1___Keller.St_CG 1776.JPG,Septoria_leaf_spot,0.9057460557722536
+data/raw/Septoria_leaf_spot/d4293713-6637-424f-96ef-c73c483751c7___Matt.S_CG 0723.JPG,Septoria_leaf_spot,0.9394867262224187
+data/raw/Septoria_leaf_spot/07679a50-9d8d-4612-80f4-464785781d56___JR_Sept.L.S 2727.JPG,Septoria_leaf_spot,0.8718724015420667
+data/raw/Septoria_leaf_spot/a84771c5-c157-409f-98b4-49dd815083f0___Matt.S_CG 6456.JPG,Septoria_leaf_spot,0.9192782189449802
+data/raw/Septoria_leaf_spot/d2c083f5-2817-4fe3-b258-da25cbee36d5___Matt.S_CG 7665.JPG,Septoria_leaf_spot,0.9554370876531574
+data/raw/Septoria_leaf_spot/057115de-0a9b-4e3a-b98f-7ba3ce174b8f___Keller.St_CG 1800.JPG,Septoria_leaf_spot,0.9011966861000307
+data/raw/Septoria_leaf_spot/3b7f264d-4d60-46c4-9e36-f4f032d47c5b___Matt.S_CG 1523.JPG,Septoria_leaf_spot,0.9493877893324387
+data/raw/Septoria_leaf_spot/4d19cd34-0257-4c33-99eb-c1036c018b71___Matt.S_CG 7843.JPG,Septoria_leaf_spot,0.9524065864471184
+data/raw/Septoria_leaf_spot/b5d40a39-bc7a-4818-a06b-5e97e819a24f___Matt.S_CG 7701.JPG,Septoria_leaf_spot,0.9622619464890758
+data/raw/Septoria_leaf_spot/7d767bb2-c00f-4c44-976e-e08a1b2f9909___Matt.S_CG 7618.JPG,Septoria_leaf_spot,0.9227245631098422
+data/raw/Septoria_leaf_spot/4542fa9a-b83f-47d0-b1ae-f85cd84816da___Keller.St_CG 1911.JPG,Septoria_leaf_spot,0.8690115221346271
+data/raw/Septoria_leaf_spot/a05152d0-46be-4016-b398-8c3edd794070___Matt.S_CG 6848.JPG,Septoria_leaf_spot,0.8906411879820422
+data/raw/Septoria_leaf_spot/b03fbf6b-8b68-4627-a001-0b81de1be427___JR_Sept.L.S 2503.JPG,Septoria_leaf_spot,0.9045221201320995
+data/raw/Septoria_leaf_spot/e5a5d1bd-7ff8-4b04-bdcd-dde9c678802a___JR_Sept.L.S 2647.JPG,Septoria_leaf_spot,0.9301383305371783
+data/raw/Septoria_leaf_spot/09332ad5-89d0-4ce9-84de-6bca4f10bf16___Keller.St_CG 1953.JPG,Septoria_leaf_spot,0.9288673731955166
+data/raw/Septoria_leaf_spot/64c0b28c-5985-44cb-9891-a728c2acda7a___JR_Sept.L.S 8467.JPG,Septoria_leaf_spot,0.7488921713441654
+data/raw/Septoria_leaf_spot/dfdf7265-bf77-4484-a62f-4750287fa6ca___JR_Sept.L.S 8551.JPG,Septoria_leaf_spot,0.9578187510871455
+data/raw/Septoria_leaf_spot/03b3e88f-63ad-49e1-88c2-b8bfffd6aaf6___Matt.S_CG 1226.JPG,Septoria_leaf_spot,0.9051762940735184
+data/raw/Septoria_leaf_spot/5ec061cf-53c5-40a6-84ee-e4926c264549___Matt.S_CG 1708.JPG,Septoria_leaf_spot,0.9591567252527092
+data/raw/Septoria_leaf_spot/67d141c6-be7a-4f3d-9c4f-b667ca41ebd4___Keller.St_CG 1838.JPG,Septoria_leaf_spot,0.9374616046197322
+data/raw/Septoria_leaf_spot/f7f15148-b2f9-4b26-b94c-745e0325f872___Matt.S_CG 6244.JPG,Septoria_leaf_spot,0.9556004898470651
+data/raw/Septoria_leaf_spot/5b7a00b3-b25d-49c9-9ce5-e0f4e2921e38___Matt.S_CG 2718.JPG,Septoria_leaf_spot,0.9398159786816833
+data/raw/Septoria_leaf_spot/9dd5bdc9-a11c-4ea5-8a64-8eeb0a129c9c___Matt.S_CG 6586.JPG,Septoria_leaf_spot,0.9468716751896215
+data/raw/Septoria_leaf_spot/1096dcdd-94e3-4752-bd19-2fba23b6c206___Matt.S_CG 1567.JPG,Septoria_leaf_spot,0.9104198601712341
+data/raw/Septoria_leaf_spot/cd3b1a93-f5b4-406f-aa8a-640280edf543___Keller.St_CG 1860.JPG,Septoria_leaf_spot,0.9297708191513501
+data/raw/Septoria_leaf_spot/0d8187e2-00e2-40e7-b1a5-c94db561057c___JR_Sept.L.S 8439.JPG,Septoria_leaf_spot,0.9225122349102773
+data/raw/Septoria_leaf_spot/c091c138-173c-4c3d-8156-ef8c55e03e60___Matt.S_CG 1522.JPG,Septoria_leaf_spot,0.9468879668049792
+data/raw/Septoria_leaf_spot/ca8da8d9-ca5f-41fa-a759-c82aa369f253___Matt.S_CG 1500.JPG,Septoria_leaf_spot,0.9062691027643822

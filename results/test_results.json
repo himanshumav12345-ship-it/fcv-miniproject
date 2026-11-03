@@ -1,0 +1,59 @@
+{
+ "classifier": "svm",
+ "n_test_images": 757,
+ "n_pipeline_failures": 0,
+ "accuracy_all_images": 0.9075297225891678,
+ "accuracy_analysed_images": 0.9075297225891678,
+ "macro_f1": 0.908702972754754,
+ "per_class": {
+  "Healthy": {
+   "precision": 0.9615384615384616,
+   "recall": 0.984251968503937,
+   "f1-score": 0.9727626459143969,
+   "support": 127.0
+  },
+  "Bacterial_spot": {
+   "precision": 0.9914529914529915,
+   "recall": 0.928,
+   "f1-score": 0.9586776859504132,
+   "support": 125.0
+  },
+  "Early_blight": {
+   "precision": 0.7898550724637681,
+   "recall": 0.8384615384615385,
+   "f1-score": 0.8134328358208955,
+   "support": 130.0
+  },
+  "Late_blight": {
+   "precision": 0.9230769230769231,
+   "recall": 0.9,
+   "f1-score": 0.9113924050632911,
+   "support": 120.0
+  },
+  "Leaf_Mold": {
+   "precision": 0.9,
+   "recall": 0.9285714285714286,
+   "f1-score": 0.9140625,
+   "support": 126.0
+  },
+  "Septoria_leaf_spot": {
+   "precision": 0.896,
+   "recall": 0.8682170542635659,
+   "f1-score": 0.8818897637795275,
+   "support": 129.0
+  },
+  "accuracy": 0.9075297225891678,
+  "macro avg": {
+   "precision": 0.9103205747553574,
+   "recall": 0.9079169983000783,
+   "f1-score": 0.908702972754754,
+   "support": 757.0
+  },
+  "weighted avg": {
+   "precision": 0.9094866561909236,
+   "recall": 0.9075297225891678,
+   "f1-score": 0.9080905925585213,
+   "support": 757.0
+  }
+ }
+}
